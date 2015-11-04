@@ -1,10 +1,12 @@
 # javascript-for-diehard-java-devs
 
+![Die Hard](etc/images/diehard.jpg)
+
 If you are a full-stack engineer like me, you may have purposefully avoided any form of JavaScript development for over a decade. 
 
 The logic behind the avoidance is that it's hard enough to master and keep up with Java, and if you're a client-side consultant, you have to put up 
 with all kinds of client-side matters to boot (including stack changes with each project). Moreover, with top-notch frameworks such as 
-[Vaadin](http://www.vaadin.com) as the front-end arrow in your quiver, it becomes hard to devote one's free time to Javascript and the 
+[Vaadin](http://www.vaadin.com) as the front-end arrow in your quiver, it becomes hard to devote one's free time to JavaScript and the 
 potential for browser incompatibility burn. Even worse, if you are a full-stack developer, this implies mastering say bash, cloud computing 
 and much more.
 
