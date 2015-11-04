@@ -21,10 +21,18 @@ So, on with mastering JavaScript, even as a diehard Java developer.
 
 ## Tooling
 
-### Eclipse Mars, The JDK 8 Oracle Nashorn JavaScript Engine and The Maven javascript-quickstart archetype
+It naturally be handy to keep on using familiar and mature tools while working through books and exercises. So that is what I've done while noting the need to keeping explore new tools that may have superior JavaScript support (e.g. Microsoft Visual Studio Code), if at all possible. 
+
+### Eclipse 
+
+Individual .js files can be executed on Eclipse Mars Java EE Edition and the JDK 8 Oracle Nashorn JavaScript Engine using the setup shown in the image below. Its also worth taking note of the Maven javascript-quickstart archetype and thinking 
+that went into it.
+
+Just note that you'll be using the print function and not console.log when running scripts using JJS.
 
 ![JJS Eclipse Mars](etc/images/jjs_eclipse_mars.png)
 
 ## Booking
 
-
+There are a plethora of books out there, chances are I'll buy a couple in time. That said, the starting point I've chosen
+is [Eloquent JavaScript, 2nd Edition]() and to just skim over the entry-level programmer parts.
