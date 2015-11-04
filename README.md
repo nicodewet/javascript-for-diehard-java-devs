@@ -11,9 +11,9 @@ and much more.
 Well, times have changed in recent years, and some of the key developments that have convinced me that it's ill-advised to keep dodging JavaScript 
 include:
 
-* Reactive Design Patterns and the accompanying Reactive Manifesto.
-* Model-View-ViewModel Architectural Pattern (MVVM) and supporting frameworks (notably AngularJS).
-* Service Oriented Front End Architecture (SOFEA).
+* [Reactive Design Patterns](https://www.manning.com/books/reactive-design-patterns) and the accompanying [Reactive Manifesto](http://www.reactivemanifesto.org).
+* The Model-View-ViewModel Architectural Pattern (MVVM) and supporting frameworks (e.g. [AngularJS](https://angularjs.org)).
+* [Service Oriented Front End Architecture](http://www.smart-soft.com/downloads/articles/sofea.html) (SOFEA).
 
 So, on with mastering JavaScript, even as a diehard Java developer.
 
