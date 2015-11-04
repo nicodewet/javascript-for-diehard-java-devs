@@ -21,7 +21,7 @@ So, on with mastering JavaScript, even as a diehard Java developer.
 
 ### Eclipse Mars, The JDK 8 Oracle Nashorn JavaScript Engine and The Maven javascript-quickstart archetype
 
-
+![JJS Eclipse Mars](etc/images/jjs_eclipse_mars.png)
 
 ## Booking
 
