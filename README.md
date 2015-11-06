@@ -32,7 +32,31 @@ Just note that you'll be using the print function and not console.log when runni
 
 ![JJS Eclipse Mars](etc/images/jjs_eclipse_mars.png)
 
+By default, JavaScript Development Tools gives you ECMAScript 3 as the only viable compliance level, as shown below.
+
+![Eclipse Mars](etc/images/eclipse_mars_default_compliance_level.png)
+
+As a bare minimum I would want ECMAScript 5 as the compliance level. To make this happen either install Tern Eclipse IDE or say AngularJS Eclipse (which has the former as a dependency).
+
+### Visual Studio (VS) Code
+
+"**I said Goddamn**" (*Mia Wallace, Pulp Fiction*). 
+
+These words and scene from Pulp Fiction succinctly sums up my first impression of programming JavaScript in VS Code, add to that the joy of 
+working on a MacBook and your pretty much on an instantaneous high.   
+
 ## Booking
 
 There are a plethora of books out there, chances are I'll buy a couple in time. That said, the starting point I've chosen
 is [Eloquent JavaScript, 2nd Edition]() and to just skim over the entry-level programmer parts.
+
+### Eloquent JavaScript, 2nd Edition
+
+ECMAScript 5 as the basis (by deduction since the let keyword is specified as a future language improvement).
+
+### Mozilla Developer Network JavaScript Guide
+
+### Effective JavaScript
+
+### Secrets of the JavaScript Ninja, Second Edition
+
