@@ -31,9 +31,22 @@ var node = arrayToList(array);
 arr = listToArray(node)
 print(arr)
 
-function prepend() {
-	
+function prepend(node, list) {
+	node.pointer=list
 }
-function nth() {
-	
+function nth(number, list) {
+	var index = 1;
+	while(node != null) {
+		if (number == index) {
+			return node
+		}
+		index++
+		node = node.pointer
+	}
 }
+
+// test
+var test_arr = ["a", "b", "c", "dee"]
+var node = arrayToList(test_arr)
+var chosen_node = arrayToList(4, node)
+print(chosen_node.value)
