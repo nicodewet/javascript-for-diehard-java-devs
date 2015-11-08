@@ -53,3 +53,19 @@ var chosen_node = nth(4, node)
 print(chosen_node.value)
 chosen_node = nth(5, node)
 print(chosen_node)
+
+// recursive nth
+function nth_rec(number, list) {
+	print(number)
+	if (number == 1) {
+		return list;
+	} else {
+		var nxt = number - 1;
+		return nth_rec(nxt, list.pointer)
+	}
+}
+// test
+var test_array = [1,2,3,4,5,6,7,8,9,10]
+var startNode = arrayToList(test_array)
+var rec_found_node = nth_rec(9, startNode)
+print(rec_found_node.value)
