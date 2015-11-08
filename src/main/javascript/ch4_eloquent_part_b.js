@@ -17,9 +17,20 @@ while(node != null) {
 	node = node.pointer
 }
  
-function ListToArray() {
-	
+function listToArray(node) {
+	var array = [];
+	while(node != null) {
+		array.push(node.value)
+		node = node.pointer
+	}
+	return array;
 }
+// test
+var arr = [1,2,3,4,5,6]
+var node = arrayToList(array);
+arr = listToArray(node)
+print(arr)
+
 function prepend() {
 	
 }
