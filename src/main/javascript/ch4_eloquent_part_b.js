@@ -43,6 +43,7 @@ function nth(number, list) {
 		index++
 		node = node.pointer
 	}
+	return undefined;
 }
 
 // test
@@ -50,3 +51,5 @@ var test_arr = ["a", "b", "c", "dee"]
 var node = arrayToList(test_arr)
 var chosen_node = nth(4, node)
 print(chosen_node.value)
+chosen_node = nth(5, node)
+print(chosen_node)
