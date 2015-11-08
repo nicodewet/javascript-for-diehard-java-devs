@@ -48,5 +48,5 @@ function nth(number, list) {
 // test
 var test_arr = ["a", "b", "c", "dee"]
 var node = arrayToList(test_arr)
-var chosen_node = arrayToList(4, node)
+var chosen_node = nth(4, node)
 print(chosen_node.value)
