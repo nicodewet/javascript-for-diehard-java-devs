@@ -69,3 +69,9 @@ var test_array = [1,2,3,4,5,6,7,8,9,10]
 var startNode = arrayToList(test_array)
 var rec_found_node = nth_rec(9, startNode)
 print(rec_found_node.value)
+
+function deepEqual(objA, objB) {
+	if (!(typeof objA === 'object') && !(typeof objB === 'object') ) {
+		return objA == objB
+	}
+}
